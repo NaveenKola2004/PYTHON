@@ -42,7 +42,9 @@ print(dir("str"))
   - update
   - delete
 - String is ordered
--Support the Indexing and Slicing
+- Support the Indexing and Slicing
+- Allow the duplicate values
+
 5. String has having the indexing and slicing 
 6. String is starting with the 0 for front side
 7. For Back side starting with -1
