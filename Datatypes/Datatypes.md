@@ -38,15 +38,16 @@ print(dir("str"))
 ```
 5. String has having the indexing and slicing 
 6. String is starting with the 0 for front side
+7. For Back side starting with -1
 ```python
  N   A  V  E  E  N
  0   1  2  3  4  5
 -6  -5 -4 -3 -2 -1
 ```
-7. For Back side starting with -1
 
 8. Indexing
 ```python 
 x="python"
-print(x[0])
+print(x[0]) #Output p
+print(x[-1]) #Output n
 ```
