@@ -5,6 +5,9 @@
   - it execute the code in line by line
   - incase any error occur in the statement it stop the code exection and the show the error of it 
 
+- Download the python version
+![pytondownload](www.python.org)
+
 # Example 
 ```python
 prin("Hello, World!")
@@ -33,5 +36,3 @@ print("Hello, World!")
 6. set,{ }
 7. frozen set ,{ }
 8. dict (dictionary),(key:values),{ }
-
-![pytondownload](www.python.org)
