@@ -73,7 +73,7 @@ print(x[-4:-1]) #Output vee
 x="Naveen"
 print(x[::-1]) #Output neevaN
 ```
-- Working of the Step you type the [::-1] we are not provide the stop and stop we just provide the step so it will go and visit each characture and print it
+- Working of the Step you type the [: : -1] we are not provide the stop and stop we just provide the step so it will go and visit each characture and print it
 
 ```python 
 N     A     V       E       E       N
