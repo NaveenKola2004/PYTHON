@@ -51,3 +51,12 @@ x="python"
 print(x[0]) #Output p
 print(x[-1]) #Output n
 ```
+9. Slicing
+```python 
+x="Naveen"
+print(x[0:5]) #Output Navee
+print(x[-4:-1]) #Output vee
+```
+- It this we are giving the [Start : Stop]
+- For Stop it will take
+ - You entered the 5 it will take the 4 only it take the Stop as the previous number
