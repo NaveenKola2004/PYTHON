@@ -36,6 +36,13 @@ myNumber2=-12
 ```python 
 print(dir("str"))
 ```
+- String is Mutable 
+- Support the 
+  - add
+  - update
+  - delete
+- String is ordered
+-Support the Indexing and Slicing
 5. String has having the indexing and slicing 
 6. String is starting with the 0 for front side
 7. For Back side starting with -1
@@ -58,5 +65,6 @@ print(x[0:5]) #Output Navee
 print(x[-4:-1]) #Output vee
 ```
 - It this we are giving the [Start : Stop]
-- For Stop it will take
- - You entered the 5 it will take the 4 only it take the Stop as the previous number
+-  For Stop it will take the you entered the 5 it will take the 4 only it take the Stop as the previous number of you entered number
+
+10. Make practice on the each method in the string
