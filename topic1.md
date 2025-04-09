@@ -1,2 +1,2 @@
 # PYTHON
-<pre>`print("Hello, World!")`
+<pre>print("Hello, World!")
