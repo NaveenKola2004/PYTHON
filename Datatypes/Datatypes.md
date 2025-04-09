@@ -1,7 +1,7 @@
 
 # DATA TYPES
-- Datatypes are used to define the type of data to used in the code
-- like we are used name : for like sequense on charactures
+- Datatypes are used to define the type of data to used to the variables in the code
+- like we are used name , for that we use sequense of charactures that means string
    - example
     - name="Naveen"
 ## They are 
