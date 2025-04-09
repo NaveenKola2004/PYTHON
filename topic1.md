@@ -5,6 +5,12 @@
   - it execute the code in line by line
   - incase any error occur in the statement it stop the code exection and the show the error of it 
 
+# Example 
+```python
+prin("Hello, World!")
+
+```
+
 ### syntax
 ```python
 print("Hello, World!")
