@@ -80,4 +80,20 @@ N     A     V       E       E       N
                                    -1
 ```
 
+- step is [ : :-2] starting 1 and ending is upto end of string and step is -2
+```python 
+N     A     V       E       E       N   #Output nea
+                   -2      -1       0
+     -2    -1       0
+-1    0
+```
+
 10. Make practice on the each method in the string
+
+11. Formulas for slicing 
+```python
+i=start+n⋅step
+If step > 0: loop while i < stop
+
+If step < 0: loop while i > stop
+```
