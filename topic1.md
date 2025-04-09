@@ -4,7 +4,7 @@
 - It is interputed language
   - it execute the code in line by line
   - incase any error occur in the statement it stop the code exection and the show the error of it 
-
+- It is case sensitive, in a and A different in the python 
 - Download the python version visit the www.python.org we can download the python
 
 # Example 

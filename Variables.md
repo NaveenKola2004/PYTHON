@@ -20,8 +20,17 @@ name={name:"TONY"}
 1. Use any type of cases
 
 - camel case
+```python 
+myNumber=89
+```
 - snake case
+```python 
+my_Number=90
+```
 - pascal case
+```python
+My_Number=89
+```
 
 2. Variable is not start with number are any symbols
 
@@ -30,4 +39,8 @@ name={name:"TONY"}
 7gaa=90
 @naveen=89
 
+```
+3. Don't put space between the to words
+```python
+My Number=90
 ```
