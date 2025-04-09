@@ -11,8 +11,7 @@ prin("Hello, World!")
 
 ```
 -  prin("Hello , World!")
-    ^^^^
-NameError: name 'prin' is not defined. Did you mean: 'print'?
+  - NameError: name 'prin' is not defined. Did you mean: 'print'?
 
 ### syntax
 ```python
