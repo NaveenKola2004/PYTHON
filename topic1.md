@@ -1,5 +1,5 @@
 # PYTHON
-<p>python was intoduced by the gudio van rossom in 1991 
+<p>python is progarmming language it was intoduced by the gudio van rossom in 1991 
 
 ### syntax
 ```python
