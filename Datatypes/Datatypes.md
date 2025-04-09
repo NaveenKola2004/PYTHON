@@ -30,7 +30,7 @@ myNumber2=-12
 # Str (STRING)
 
 1. string is defined as the sequense of charactures
-2. Enclosed with the single '' OR Double "" queatations
+2. Enclosed with the single ' ' OR Double "  " queatations
 3. It as the some methods 
 4. we can Get the all types of methods by using this line of code
 ```python 
