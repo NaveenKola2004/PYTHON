@@ -66,7 +66,18 @@ x="Naveen"
 print(x[0:5]) #Output Navee
 print(x[-4:-1]) #Output vee
 ```
-- It this we are giving the [Start : Stop]
+- It this we are giving the [Start : Stop :step]
 -  For Stop it will take the you entered the 5 it will take the 4 only it take the Stop as the previous number of you entered number
+- Step is skiping the numbers
+```python 
+x="Naveen"
+print(x[::-1]) #Output neevaN
+```
+- Working of the Step you type the [::-1] we are not provide the stop and stop we just provide the step so it will go and visit each characture and print it
+
+```python 
+N     A     V       E       E       N
+                                   -1
+```
 
 10. Make practice on the each method in the string
