@@ -9,5 +9,7 @@
 ``` python 
 
 num=90
+name="Naveen"
+fruits=["Apple"]
 
 ```
