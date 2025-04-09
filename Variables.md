@@ -44,3 +44,7 @@ My_Number=89
 ```python
 My Number=90
 ```
+4. In end or middle we can put the numbers
+```python 
+myNumber1=87
+```
