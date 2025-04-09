@@ -21,8 +21,8 @@ print("Hello, World!")
 # DATA TYPES
 - Datatypes are used to define the type of data to used in the code
 - like we are used name : for like sequense on charactures
-<u>  - example
-   - name="Naveen"
+   - example
+    - name="Naveen"
 ## They are 
 
 1. int(Interger)
