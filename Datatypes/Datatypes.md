@@ -5,7 +5,7 @@
    - example
     - name="Naveen"
 <details>
-<summary> ➡️ Datatypes </summary>
+<summary style="font-size: 20px; font-weight: bold;">  ➡️ Datatypes </summary>
 
 ## Types of Datatypes
 
