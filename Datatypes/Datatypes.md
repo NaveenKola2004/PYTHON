@@ -106,10 +106,10 @@ If step < 0: loop while i > stop
    - -9.8
 2. Like that we can define the float values
 
-# LIST([])
+# LIST(  [  ]  )
 
 - List is collection of any type of values
-- It is enclosed with the square brackets ( [] )
+- It is enclosed with the square brackets ( [  ] )
 - List is mutable so it supports the 
   - Add
   - Update
