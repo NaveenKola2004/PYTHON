@@ -14,6 +14,7 @@
 6. set,{ }
 7. frozen set ,{ }
 8. dict (dictionary),(key:values),{ }
+9. Bool (True,False)
 
 
 # INT (INTEGER)
@@ -45,22 +46,21 @@ print(dir("str"))
 - Support the Indexing and Slicing
 - Allow the duplicate values
 
-5. String has having the indexing and slicing 
-6. String is starting with the 0 for front side
-7. For Back side starting with -1
+5. String is starting with the 0 for front side
+6. For Back side starting with -1
 ```python
  N   A  V  E  E  N
  0   1  2  3  4  5
 -6  -5 -4 -3 -2 -1
 ```
 
-8. Indexing
+7. Indexing
 ```python 
 x="python"
 print(x[0]) #Output p
 print(x[-1]) #Output n
 ```
-9. Slicing
+8. Slicing
 ```python 
 x="Naveen"
 print(x[0:5]) #Output Navee
@@ -82,18 +82,75 @@ N     A     V       E       E       N
 
 - step is [ : :-2] starting 1 and ending is upto end of string and step is -2
 ```python 
-N     A     V       E       E       N   #Output nea
+N     A     V       E       E       N   #Output  NEA
                    -2      -1       0
      -2    -1       0
 -1    0
 ```
 
-10. Make practice on the each method in the string
+9. Make practice on the each method in the string
 
-11. Formulas for slicing 
+10. Formulas for slicing 
 ```python
 i=start+n⋅step
 If step > 0: loop while i < stop
 
 If step < 0: loop while i > stop
+```
+
+# Float
+
+1. Float is a decimal values it contains the point values
+- example
+   - 1.2
+   - -9.8
+2. Like that we can define the float values
+
+# LIST([])
+
+- List is collection of any type of values
+- It is enclosed with the square brackets ( [] )
+- List is mutable so it supports the 
+  - Add
+  - Update
+  - Delete
+- It ordered also so it supports the 
+  - Indexing
+  - Slicing
+- Allow duplicate values also
+
+### Creating the list
+
+- creating the Empty list
+```python 
+Fruits=[]
+print(type(Fruits))
+```
+-  inserting the String data
+
+```python 
+Fruits=["APPLE","BANANA","GRAPES"]
+print(Fruits) #Output ['APPLE', 'BANANA', 'GRAPES']
+```
+- Inserting the Numeric data
+
+```python 
+Numbers=[1,2,3,4,0,-1,7.98,89]
+print(Numbers) #Output [1, 2, 3, 4, 0, -1, 7.98, 89]
+```
+- So this all are the Creating list and inserting data to the list and geting the data
+
+### Acessing the each data
+
+- So it would be the Ordered so supports the Indexing & Slicing to we can acessing each elements
+
+#### Example Indexing
+
+- Indexing same as string 
+- In string we get the each characture
+- In List we get the each Element
+
+```python 
+Fruits=["APPLE","BANANA","GRAPES"]
+print(Fruits[0]) #Output  APPLE
 ```
