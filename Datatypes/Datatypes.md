@@ -4,10 +4,7 @@
 - like we are used name , for that we use sequense of charactures that means string
    - example
     - name="Naveen"
-<details>
-<summary><strong>  ➡️ Datatypes</strong> </summary>
-
-## Types of Datatypes
+## Types of Datatypes 
 
 1. int(Interger)
 2. str(String)
@@ -18,7 +15,10 @@
 7. frozen set ,{ }
 8. dict (dictionary),(key:values),{ }
 9. Bool (True,False)
-</details>
+
+
+<details>
+<summary> ➡️ INT</summary>
 
 # INT (INTEGER)
 
@@ -29,7 +29,7 @@
 myNumber1=78
 myNumber2=-12
 ```
-
+</details>
 
 # Str (STRING)
 
