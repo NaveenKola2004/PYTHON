@@ -18,7 +18,7 @@
 
 
 <details>
-<summary> ➡️ INT</summary>
+<summary><strong> ➡️ INT </strong></summary>
 
 # INT (INTEGER)
 
@@ -30,6 +30,9 @@ myNumber1=78
 myNumber2=-12
 ```
 </details>
+
+<details>
+<summary><strong> ➡️ STRING </strong></summary>
 
 # Str (STRING)
 
@@ -100,7 +103,9 @@ If step > 0: loop while i < stop
 
 If step < 0: loop while i > stop
 ```
-
+</details>
+<details>
+<summary> <strong> ➡️ FLOAT  </strong></summary>
 # Float
 
 1. Float is a decimal values it contains the point values
@@ -108,6 +113,11 @@ If step < 0: loop while i > stop
    - 1.2
    - -9.8
 2. Like that we can define the float values
+
+</details>
+
+<details>
+<summary><strong> ➡️ LIST </strong></summary>
 
 # LIST(  [  ]  )
 
@@ -176,6 +186,7 @@ print(Fruits[::-1]) #Output ["GRAPES","BANANA","APPLE"]
 Fruits=[]
 print(dir(Fruits))
 ```
+</details>
 
 
 
