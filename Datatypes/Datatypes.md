@@ -166,3 +166,23 @@ print(Fruits[0:3]) #Output ["APPLE","BANANA","GRAPES"]
 print(Fruits[-3:-1]) #Output ["APPLE","BANANA"]
 print(Fruits[::-1]) #Output ["GRAPES","BANANA","APPLE"]
 ```
+- As String as Methods List also have the methods so
+- We can get the methods
+
+```python 
+Fruits=[]
+print(dir(Fruits))
+```
+<details>
+  <summary>▶ Click to see more details</summary>
+
+  **Here are the details!**
+  
+  You can add more text here, bullet points, code, whatever you want.
+
+  - Detail 1
+  - Detail 2
+  - Detail 3
+</details>
+
+
