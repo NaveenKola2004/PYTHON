@@ -83,7 +83,7 @@ print(x[::-1]) #Output neevaN
 
 ```python 
 N     A     V       E       E       N
-                                   -1
+0                                  -1
 ```
 
 - step is [ : :-2] starting 1 and ending is upto end of string and step is -2
@@ -151,6 +151,14 @@ print(Fruits) #Output ['APPLE', 'BANANA', 'GRAPES']
 Numbers=[1,2,3,4,0,-1,7.98,89]
 print(Numbers) #Output [1, 2, 3, 4, 0, -1, 7.98, 89]
 ```
+
+- inserting the all types of data
+
+```python
+Data=["naveen",18,99.9,-100,10/8]
+print(Data) # ['naveen', 18, 99.9, -100, 1.25]
+
+```
 - So this all are the Creating list and inserting data to the list and geting the data
 
 ### Acessing the each data
@@ -189,5 +197,24 @@ print(dir(Fruits))
 - Make practice on the each method in the LIST 
 </details>
 
+<details>
+<summary><strong> ➡️ TUPLE</strong></summary>
 
+# TUPLE 
+
+1. Tuple is collection of any type of data
+2. It is enclosed with the '  (  )  '
+3. Tuple is immutable 
+- it is not support the add,update,delete the values in tupe
+4. It is ordered
+- It is support the Indexing & Slicing
+5. Allow the duplicate values
+
+### Creating empty Tuple
+
+```python
+Fruits=()
+print(type(Fruits)) #<class 'Tuple'>
+```
+#
 
