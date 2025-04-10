@@ -121,7 +121,7 @@ If step < 0: loop while i > stop
 
 # LIST(  [  ]  )
 
-- List is collection of any type of values
+- List is collection of any type of values(data)
 - It is enclosed with the square brackets ( [  ] )
 - List is mutable so it supports the 
   - Add
@@ -179,13 +179,14 @@ print(Fruits[0:3]) #Output ["APPLE","BANANA","GRAPES"]
 print(Fruits[-3:-1]) #Output ["APPLE","BANANA"]
 print(Fruits[::-1]) #Output ["GRAPES","BANANA","APPLE"]
 ```
-- As String as Methods List also have the methods so
+- As String as Methods List also have the methods
 - We can get the methods
 
 ```python 
 Fruits=[]
 print(dir(Fruits))
 ```
+- Make practice on the each method in the LIST 
 </details>
 
 
