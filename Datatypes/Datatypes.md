@@ -4,7 +4,10 @@
 - like we are used name , for that we use sequense of charactures that means string
    - example
     - name="Naveen"
-## Types of Datatypes 
+<details>
+<summary> ➡️ Datatypes </summary>
+
+## Types of Datatypes
 
 1. int(Interger)
 2. str(String)
@@ -15,7 +18,7 @@
 7. frozen set ,{ }
 8. dict (dictionary),(key:values),{ }
 9. Bool (True,False)
-
+</details>
 
 # INT (INTEGER)
 
@@ -173,16 +176,6 @@ print(Fruits[::-1]) #Output ["GRAPES","BANANA","APPLE"]
 Fruits=[]
 print(dir(Fruits))
 ```
-<details>
-  <summary>▶ Click to see more details</summary>
 
-  **Here are the details!**
-  
-  You can add more text here, bullet points, code, whatever you want.
-
-  - Detail 1
-  - Detail 2
-  - Detail 3
-</details>
 
 
