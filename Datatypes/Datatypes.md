@@ -144,13 +144,25 @@ print(Numbers) #Output [1, 2, 3, 4, 0, -1, 7.98, 89]
 
 - So it would be the Ordered so supports the Indexing & Slicing to we can acessing each elements
 
-#### Example Indexing
+#### Indexing
 
-- Indexing same as string 
+- Indexing same as string Starting with ' 0 '
 - In string we get the each characture
 - In List we get the each Element
 
 ```python 
 Fruits=["APPLE","BANANA","GRAPES"]
 print(Fruits[0]) #Output  APPLE
+print(Fruits[-1]) #Output GRAPES
+```
+
+#### Slicing [START : STOP  : STEP ]
+
+- Slicing is same as String 
+
+```python
+Fruits=["APPLE","BANANA","GRAPES"]
+print(Fruits[0:3]) #Output ["APPLE","BANANA","GRAPES"]
+print(Fruits[-3:-1]) #Output ["APPLE","BANANA"]
+print(Fruits[::-1]) #Output ["GRAPES","BANANA","APPLE"]
 ```
