@@ -48,3 +48,4 @@ My Number=90
 ```python 
 myNumber1=87
 ```
+5. Don't use the python keywords as the variables
