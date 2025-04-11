@@ -46,7 +46,49 @@
 |**|Exponention|2**2=4|
 |--|------------|---|
 </details>
+<details>
+<summary><strong>➡️ LOGICAL OPERATORS</strong></summary>
 
+| OPERATOR|EXAMPLE|
+|---------|-------|
+|and| 'A' and 'B' in "ABCD" -> True|
+|or |'A' or 'B' in "ABCD" -> True|
+|not|Reverse truth|
+</details>
+<details>
+<summary><strong>➡️ ASSIGNMENT OPERATORS</strong></summary>
+
+- This operator used to assign the values to the variable
+
+|OPERATOR|MEANING|EXAMPLE|
+|--------|-------|-------|
+|=|Assign value to variable|a=20|
+|+=|	Add and assign|	x += 3 → x = x + 3|
+|-=|	Subtract and assign|	x -= 2|
+|*=|	Multiply and assign|	x *= 4|
+|/=|	Divide and assign|	x /= 2|
+|//=|	Floor divide and assign	|x //= 2|
+|%=|	Modulus and assign|	x %= 2|
+|**=|	Exponent and assign|	x **= 3|
+</details>
+<details>
+<summary><strong> ➡️ COMPARISION OPERATORS</strong></summary>
+
+# COMPARISION OPERATORS
+
+- It is used to compare the two operands
+- It return the only boolean value (True/False)
+
+
+|OPERATOR|MEANING|EXAMPLE|
+|--------|-------|-------|
+|==|Equalto|3==3 -> True|
+|!=|Not equalto|3!=2 -> True|
+|<|LessThen|5<2 -> False|
+|>|GraterThen|6>2 -> True|
+|<=|LessThenEqualto|3<=3 ->True|
+|>=|GraterThenEqualto|6>=5 ->True|
+</details>
 <details>
 <summary><strong>➡️ MEMBERSHIP OPERATORS</strong></summary>
 
@@ -65,10 +107,26 @@
 </details>
 
 <details>
-<summary><strong>➡️LOGICAL OPERATORS</strong></summary>
+<summary><strong>➡️ IDENTITY OPERATORS</strong></summary>
 
-| OPERATOR|EXAMPLE|
-|---------|-------|
-|and| 'A' and 'B' in "ABCD" -> True|
-|or |'A' or 'B' in "ABCD" -> True|
-|not|Reverse truth|
+# IDENTITY OPERATORS
+
+- It checks two things are same
+
+|Operator|	Meaning|	Example|
+|--------|---------|--------|
+|is|	Same object|	x is y|
+|is not|	Not the same object|	x is not y|
+
+</details>
+
+## Expersion
+
+- It is the combination of operators and operands
+
+```python
+a=78
+b=90
+x=a+b # -> This an expresion
+print(x)
+```
