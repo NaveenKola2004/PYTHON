@@ -205,9 +205,9 @@ print(dir(Fruits))
 1. Tuple is collection of any type of data
 2. It is enclosed with the '  (  )  '
 3. Tuple is immutable 
-- it is not support the add,update,delete the values in tupe
+   - it is not support the add,update,delete the values in tupe
 4. It is ordered
-- It is support the Indexing & Slicing
+   - It is support the Indexing & Slicing
 5. Allow the duplicate values
 
 ### Creating empty Tuple
@@ -218,3 +218,189 @@ print(type(Fruits)) #<class 'Tuple'>
 ```
 #
 
+### Inserting values to Tuple
+
+```python
+Fruits=("APPLE","ORANGE","GRAPE") 
+print(Fruits) #Output ("APPLE","ORANGE","GRAPE")
+```
+
+### Indexing
+
+```python
+Fruits=("APPLE","ORANGE","GRAPE")
+print(Fruits[0]) #Output APPLE
+```
+### Slicing
+
+```python 
+Fruits=("APPLE","ORANGE","GRAPE")
+print(Fruits[::-1])  #Output ('GRAPE','ORANGE','APPLE')
+```
+-  Slicing and Indexing same as list
+
+### Methods
+
+- Get the all method of tuple like this 
+
+```python
+Fruits=()
+print(dir(Fruits))
+```
+
+- Practice the each method on Tuple
+</details>
+
+<details>
+<summary><strong>➡️ SET</strong></summary>
+
+# SET '  { }  '
+
+1. Set is mutable
+   - Add
+   - Update
+   - Delete
+2. It is unorderd
+  - Not support the indexing and slicing
+3. Stores immutable data
+4. Not allow the store the duplicate values
+   - it will take but not shown in result
+5. It stores only immutable data
+   - Liske tuple data like that immutable data
+
+### Creating Set
+
+```python
+Fruits={"naveen"}
+Names=set()
+print(type(Fruits)) #Output <class 'set'>
+print(type(Names))  #Output <class 'set'>
+```
+### Stores only Immutable data
+
+```python
+Names={"naveen",18,(99,89,78)}
+print(Names) #Output {'Naveen', 18, (99, 89, 78)}
+```
+```python
+Names={"Naveen",18,[99,89,78]}
+print=(Names) # type error unhashable type: 'list'
+```
+### Methods 
+
+```python
+Name=set()
+print(dir(Name))
+```
+</details>
+
+<details>
+<summary><strong>➡️ FROZEN SET</strong></summary>
+
+# FROZEN SET
+
+- It is immutable 
+- It is Unordered
+- Not allow the duplicate
+- Stores only immutable data
+
+### Creating Frozenset 
+
+```python
+Names=frozenset()
+print(type(Names)) # <class 'frozenset'>
+```
+### Creating Frozenset with mutable data values
+
+```python
+Names=frozenset(["naveen",456])
+print(Names) #Output frozenset({456,'Naveen'})
+```
+### Creating Frozenset with immutable data values
+
+```python
+Names=frozenset("naveen")
+print(Names) #Output frozenset({'n','a','v','e'})
+```
+### Methods
+
+- We can get the frozenset methods 
+
+```python
+Names=frozenset()
+print(dir(Names))
+```
+
+</details>
+
+<details>
+<summary> <strong>➡️ DICTIONARY </strong></summary>
+
+# DICTIONARY (dict)
+
+- Dictionary is mutable
+   - Add
+   - Update
+   - Delete
+- Data in the form of {Key : values}
+- Accessing elements by key 
+- it is not support indexing and slicing
+- It allow duplicate values 
+- But Keys should be UNIQUE
+- Not allow duplicate keys
+
+### Creating dictionary
+
+```python
+Names={}
+Address=dict()
+print(type(Names)) #<class 'dict'>
+print(type(Address)) #<class 'dict'>
+```
+### Creating dictionary with values
+
+```python
+Names={1:"Kola",2:"Naveen"}
+print(Names)  #Output {1:"Kola",2:"Naveen"}
+```
+
+### Accessing elements by key
+
+```python
+Names={1:"Kola",2:"Naveen"}
+print(Names[1])  #Output kola
+```
+
+### Methods of dictionary
+
+```python
+Names=dict()
+print(dir(Names))
+```
+
+</details>
+<details>
+<summary><strong> ➡️ BOOLEAN</strong></summary>
+
+# BOOLEAN (BOOL) 
+
+- Boolean is represented as the True or False
+- We write Bool in the pyhton True and False
+- Don't change the cases because it has meaning in python
+
+```python
+print(5>6) #Output False
+print(5<6>) #Output True
+```
+</details>
+
+## Operations on Datatypes
+
+| Operation            | List   | Tuple  | Set                    | FrozenSet              | Dictionary           |
+|----------------------|--------|--------|------------------------|------------------------|----------------------|
+| Adding elements      | ✅ Yes | ❌ No  | ✅ Yes                 | ❌ No                  | ✅ Yes               |
+| Accessing elements   | ✅ Yes | ✅ Yes | ⚠️ No direct indexing | ⚠️ No direct indexing | ✅ Yes (by key)      |
+| Updating elements    | ✅ Yes | ❌ No  | ✅ Yes                 | ❌ No                  | ✅ Yes               |
+| Deleting elements    | ✅ Yes | ❌ No  | ✅ Yes                 | ❌ No                  | ✅ Yes               |
+
+# Practice and solve the Assignments
