@@ -49,3 +49,8 @@ My Number=90
 myNumber1=87
 ```
 5. Don't use the python keywords as the variables
+
+```python
+if=23
+else="Naveen"
+```
