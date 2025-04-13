@@ -6,9 +6,11 @@
 
 ### Example
 ```python
+a=90
+b="NAVEEN"
 print("Hello,World!") # printing the strings
 print(2+3) #integer
-print(a) # printing variable that is any type
+print(b,a) # printing variable that is any type
 ```
 
 # INPUT()
