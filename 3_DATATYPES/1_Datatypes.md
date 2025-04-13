@@ -103,6 +103,13 @@ If step > 0: loop while i < stop
 
 If step < 0: loop while i > stop
 ```
+
+# SPECIAL STRING METHODS
+|Method|	Belongs To|
+|------|-----------|
+|split()	|str (string)|
+|strip()|	str|
+|end()|str|
 </details>
 <details>
 <summary> <strong> ➡️ FLOAT  </strong></summary>
