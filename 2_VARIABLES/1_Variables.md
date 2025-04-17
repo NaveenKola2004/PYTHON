@@ -54,3 +54,9 @@ myNumber1=87
 if=23
 else="Naveen"
 ```
+## Geting Memory Address Of Variable
+
+```python
+a=9
+print(id(a))
+```

@@ -1,7 +1,7 @@
 # PYTHON
 - Python is high level progarmming language,
 - It means human and computers are simply understand the python language,
-- It was intoduced by the gudio van rossom in 1991,
+- It was intoduced by the Gudio Van Rossom in 1991,
 - It is interputed language,
   - it execute the code in line by line,
   - incase any error occur in the statement it stop the code exection and the show the error of it, 

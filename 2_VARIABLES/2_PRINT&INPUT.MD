@@ -3,7 +3,7 @@
 - Print is a function
 - It will print the what you will give inside of parenthes ' ( ) '
 - we can give any thing but it as some rules based on datatypes
-- In print we can directly perform the mathamatical operations without using the variables
+- In print we can directly perform the mathamatical operations without using the variables in print
 ### Example
 ```python
 a=90
