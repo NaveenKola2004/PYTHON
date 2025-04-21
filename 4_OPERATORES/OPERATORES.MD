@@ -43,7 +43,6 @@
 |%|Modulation|12%6=0|
 |//|FloorDivision|154//3 = 51|
 |**|Exponention|2**2=4|
-|--|------------|---|
 </details>
 <details>
 <summary><strong>➡️ LOGICAL OPERATORS</strong></summary>
