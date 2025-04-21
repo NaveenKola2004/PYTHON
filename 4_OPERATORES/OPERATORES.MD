@@ -36,7 +36,6 @@
 
 |  OPERATOR        |      MEANING  |EXAMPLE      |
 |------------------|---------------|-------------|
-|
 |  +        |Addition |2+2=4   |
 |-|Subraction|10 - 2=8|
 |*|Multiplication|5 * 2=10|
