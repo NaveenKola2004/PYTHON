@@ -13,16 +13,17 @@
 5. Membership operator
 6. identity operator
 7. Bitwise operator
+8. Boolean operator
 
 <details>
 <summary><strong>➡️ ARTHMATIC OPERATORS</strong></summary>
 
 # ARTHMATIC OPERATORS
 
-- This operator is well know for us
-- It is a mathamatical operators 
-- It perform the Addition,Subtraction,Multiplication,Division,Modulation we know very well
-- Additional operator is the FloorDivision and Exponentiation
+- This operator is well know for us.
+- It is a mathamatical operators. 
+- It perform the Addition,Subtraction,Multiplication,Division,Modulation we know very well.
+- Additional operator is the FloorDivision and Exponentiation.
 - FloorDivision 
    - It not return the . after value
    ```python
@@ -74,8 +75,8 @@
 
 # COMPARISION OPERATORS
 
-- It is used to compare the two operands
-- It return the only boolean value (True/False)
+- It is used to compare the two operands.
+- It return the only boolean value (True/False).
 
 
 |OPERATOR|MEANING|EXAMPLE|
@@ -92,10 +93,10 @@
 
 #  MEMBERSHIP OPERATORS
 
-- Membership operator is defined in two types
+- Membership operator is defined in two types.
    - in
    - not in
-- It return the boolean value
+- It return the boolean value.
 
 | OPERATOR |EXAMPLE|
 |----------|-------|
@@ -118,9 +119,25 @@
 
 </details>
 
+<details><strong><summary>➡️ BOOLEAN OPERATOR</strong></summary>
+- Bollean is represented as the TRUE/FALSE.
+- In the python programming and the some other programming languages it represented most of (boll).
+- Actually the boolean value True/False is came after we perform the comparision of two are more  Operands or Numbers.
+
+### Example
+```python
+print(5>2) # Comparision between Numbers  ' TRUE '
+a=10
+b=9
+print(a<b) # Comparision between operands  ' FALSE '
+```
+- In this most of used in the control flow statements we use this boolean operator.
+- In python we can write the True like this, and Fasle like this
+</details>
+
 ## Expersion
 
-- It is the combination of operators and operands
+- It is the combination of operators and operands.
 
 ```python
 a=78
