@@ -120,6 +120,7 @@
 </details>
 
 <details><strong><summary>➡️ BOOLEAN OPERATOR</strong></summary>
+
 - Bollean is represented as the TRUE/FALSE.
 - In the python programming and the some other programming languages it represented most of (boll).
 - Actually the boolean value True/False is came after we perform the comparision of two are more  Operands or Numbers.
