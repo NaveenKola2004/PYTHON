@@ -79,3 +79,35 @@ else:
 - Above one is the basic program of if-elif-else
 
 - Like that we can use the N number elif statements in program
+</details>
+
+<details><summary><strong>➡️NESTED CONDITIONS</strong></summary>
+# Nested Conditions
+
+- It means condition inside the condition
+
+```python
+a=21
+b=22
+c=20
+if (a>b):
+    if(a>c):
+        print(a)
+    else:
+        print(c)
+else:
+    if (b>c):
+        if(b>a):
+            print(b)
+        else:
+            print(a)
+    else:
+        if(c>a):
+            print(c)
+        else:
+            print(a)
+```
+</details>
+
+- So this is about conditional statements
+- Practice the all assignment quesations
