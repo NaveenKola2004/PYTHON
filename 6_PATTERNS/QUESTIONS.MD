@@ -1,4 +1,22 @@
-## 1. Flipped Right Angled Triangle
+## 1. Right Angles Triangle
+```python
+* 
+* * 
+* * * 
+* * * * 
+```
+<details><summary><strong>➡️ CODE</strong></summary>
+
+```python
+n=4
+for i in range(1,n+1):
+    for j in range(i):
+        print("*",end=" ")
+    print()
+```
+</details>
+
+## 2. Flipped Right Angled Triangle
 - Using '*'
 - Input: n = 5
 
@@ -54,7 +72,7 @@ A B C
     print(chr(64+i),end=" ")
 </details>
 
-## 2. Reversed Flipped Right Angled Triangle
+## 3. Reversed Flipped Right Angled Triangle
 
 - I this will be same as the above one we just changeing the staring point of first loop
 - Using '*'
@@ -83,7 +101,7 @@ for i in range(n,0,-1):
 - Same as the numbers and alphabets printing reverse as we are see in the pervious one
 </details>
 
-## 3. Pyramid
+## 4. Pyramid
 - Using '*'
 - Input: n = 4
 - Output:
@@ -108,7 +126,7 @@ for i in range(1,n+1):
 - Numbers,Alphabets as we can do in previous codes change
 </details>
 
-## 4. Reverse Pyramid
+## 5. Reverse Pyramid
 ```python
 * * * * * * *
   * * * * *
@@ -128,7 +146,7 @@ for i in range(n,0,-1):
 ```
 </details>
 
-## 5. Diamond
+## 6. Diamond
 ```python
     *
   * * *
@@ -140,3 +158,39 @@ for i in range(n,0,-1):
 <details><summary><strong>➡️CODE</strong></summary>
 
 ```python
+n=3
+for i in range(1,n+1):
+    for j in range(n-i):
+        print(" ",end=" ")
+    for k in range(2*i-1):
+        print("*",end=" ")
+    print()
+for i in range(n-1,0,-1):
+    for j in range(n-i):
+        print(" ",end=" ")
+    for k in range(2*i-1):
+        print("*",end=" ")
+    print()
+```
+</details>
+
+## 7. Square
+
+```python
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+```
+
+<details><summary><strong>➡️CODE</strong></summary>
+
+```python
+n=5
+for i in range(n):
+    for j in range(n):
+        print("*",end=" ")
+    print()
+```
+</details>
