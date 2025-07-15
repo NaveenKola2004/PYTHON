@@ -194,3 +194,23 @@ for i in range(n):
     print()
 ```
 </details>
+
+
+<details>
+<summary><strong>Answer</strong></summary>
+
+```python
+def find(n,s):
+    b=1
+    while(b<=n):
+        b=b*2
+    b=b/2
+    ans=(2*(n-b)+s)%n
+    if (ans==0):
+        return n
+    else:
+        return ans
+print(int(find(5,5)))
+
+```
+</details>
