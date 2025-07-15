@@ -199,6 +199,9 @@ for i in range(n):
 <details>
 <summary><strong>Answer</strong></summary>
 
+- n = numbers
+- s= starting position
+- ans = who will not out in this 
 ```python
 def find(n,s):
     b=1
