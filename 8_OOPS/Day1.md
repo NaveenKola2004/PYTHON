@@ -86,3 +86,25 @@ OOP in Python is powerful because:
 | **Example (Bank)**   | Functions for deposit, withdraw | `BankAccount` class with methods |
 
 ---
+
+
+```python
+
+class Bankdetails:
+    def __init__(self):
+        self.balance=0
+    def deposit(self,amount):
+        self.balance+=amount
+    def withdraw(self,amount):
+        if(amount>self.balance):
+            print("balance is only ",self.balance)
+        else:
+            self.balance-=amount
+    def show(self):
+        print(self.balance)
+cust=Bankdetails()
+cust.deposit(67)
+cust.withdraw(60)
+cust.show()
+
+```
