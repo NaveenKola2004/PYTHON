@@ -43,7 +43,7 @@ myNumber2=-12
 ```python 
 print(dir("str"))
 ```
-- String is Mutable 
+- String is immutable 
 - Support the 
   - add
   - update
