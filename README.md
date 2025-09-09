@@ -2,4 +2,4 @@
 
 - More practice in Basics
 
-- Slove the all assignmet questions solve without using ai tools.
+- Slove the all assignmet questions without using ai tools.
