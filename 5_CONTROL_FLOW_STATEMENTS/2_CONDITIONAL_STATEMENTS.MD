@@ -1,6 +1,5 @@
 <details><summary><strong> ➡️ IF</strong></summary>
 
-# 1.IF
 - ' if ' is used to check the conditions, if the given condition is true it execute the block of code
 
 ### Syntax
