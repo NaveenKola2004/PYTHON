@@ -89,4 +89,73 @@ if __name__ == "__main__":
 
 
 ```
+# practiced one 
 
+```python
+
+
+def subseq(index,arr,len,emplist):
+    if index==len:
+        if emplist:
+            print(" ".join(map(str,emplist)))
+        else:
+            print("[]")
+        return 
+    emplist.append(arr[index])
+    subseq(index+1,arr,len,emplist)
+    emplist.pop()
+    subseq(index+1,arr,len,emplist)
+if __name__=="__main__":
+    arr=[3,1,2]
+    len=len(arr)
+    emplist=[]
+    subseq(0,arr,len,emplist)
+
+```
+
+## Subsequence where sum of k
+
+- in this consider the all the elements in an list and giev the input of that it will take the sum of each elements and print the sum of that pirticular elemets is equl to the that value 
+
+```python
+
+
+def find(index,arr,ds,n,sum,target):
+    if n==index:
+        if sum==target:
+            print(*ds)
+        return
+    ds.append(arr[index])
+    sum+=arr[index]
+    find(index+1,arr,ds,n,sum,target)
+
+    sum-=arr[index]
+
+    ds.pop()
+    find(index+1,arr,ds,n,sum,target)
+
+arr=[]
+k=int(input("Enter the number of elements to add : "))
+for i in range(1,k+1):
+    n=int(input())
+    arr.append(n)
+n=len(arr)
+target=int(input("Enter any number :  "))
+
+find(0,arr,[],n,0,target)
+
+```
+
+## sample output
+
+```python
+
+Enter the number of elements to add : 3
+1
+2
+1
+Enter any number :  2
+1 1
+2
+
+```
