@@ -65,6 +65,17 @@ for i in range(1,n1+1):
         n2=n2+1
     print(i)
 ```
-
+## ASKING THE PASSWORD UNTIL ITS TRUE
+```python
+password="naveen"
+c=True
+while(c):
+    n=input("Enter the password")
+    if n==password:
+        print("sucessfully logined")
+        c=False
+    else:
+        print("Try again")
+```
 - It is an example to the nested loops
 - Practice the all assignment questions
