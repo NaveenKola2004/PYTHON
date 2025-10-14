@@ -36,7 +36,12 @@ for i in n:
 
 - It starts the iteration will start the given condition is true
 - It iteration will stops the until given condtion is went false it stops the iteration
+- you just keep repeating the action until a condition becomes true.
+- repeat until <condition> runs until the condition becomes true (so the body runs while the condition is false).
+- You must change something inside the loop so the condition can become true — otherwise infinite loop! (Show an example of infinite loop and how to stop it.)
+## Common mistakes 
 
+- Infinite loops — caused by never changing the condition. Fix: update the variable or add a wait if needed.
 ```python
 i=1
 while(i<=5):
