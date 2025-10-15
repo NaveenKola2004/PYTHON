@@ -79,3 +79,26 @@ while(c):
 ```
 - It is an example to the nested loops
 - Practice the all assignment questions
+
+</details>
+
+```python
+
+for i in range(2,100):
+    n=i
+    count=0
+    for i in range(1,n+1):
+        if i==1 or i==n:
+            if n %i==0:
+             count+=1
+             if i==1:
+                continue
+             else:
+                print("prime number ",i)
+        else:
+            if n % i ==0:
+               print("not prime",n)
+               break
+print(count)
+
+```
