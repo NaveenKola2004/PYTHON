@@ -1,0 +1,5 @@
+- print the 1 to n using recursion
+- print the n to 1 using recursion
+- factorial of a number
+- sum of n natural numbers 
+- find the number in a list(array) if number is existed print found and not print not found 
