@@ -141,3 +141,58 @@ p2.Calculate_bill()
 p3=Product("Keyboard",1500,1)
 p3.Calculate_bill()
 print(Product.Total_bill)
+
+
+
+# additional
+
+class Room:
+    total=20
+    def __init__(self,a,b,c,d):
+        self.Room_no=a
+        self.Type=b
+        self.Ac_Or_Non_Ac=c
+        self.Avilable=d
+    def Check_out(self):
+        Room.total+=1
+        self.Avilable=True
+        
+    def Check_in(self):
+        Room.total-=1
+        if(self.Avilable):
+            self.Avilable=False
+            print("room avilabe take it")
+        else:
+            print("Room not avilable")
+def lines():
+    print("---------------------")
+room1=Room(1,"Single","AC",True)
+room2=Room(2,"King","AC",True)
+room3=Room(3,"Single","AC",True)
+room4=Room(4,"queen","AC",True)
+room5=Room(5,"king","AC",True)
+room6=Room(6,"Single","AC",True)
+room7=Room(7,"Single","AC",True)
+room8=Room(8,"king","AC",True)
+room9=Room(9,"Single","non-AC",True)
+room10=Room(10,"Single","non-AC",True)
+room11=Room(11,"king","non-AC",True)
+room12=Room(12,"Single","non-AC",True)
+room13=Room(13,"Single","non-AC",True)
+room14=Room(14,"queen","non-AC",True)
+room15=Room(15,"Single","non-AC",True)
+while True:
+    print("1.Check Total Avilable rooms \n2.Check how Many Ac rooms avilable \n3.Check how may non Ac rooms avilable \n4.Check in \n5.Check out 0.exit\n")
+    lines()
+    user_intput=int(input(" Choose one :- "))
+    lines()
+    match(user_intput):
+        case 1:
+            print(Room.total ," Rooms avilable ")
+            lines()
+        case 4:
+            room_no=input("Enter the room no : Ex: room1 to room 20 :- ")
+            room=room_no
+        case 0:
+            print("Bye")
+            break
